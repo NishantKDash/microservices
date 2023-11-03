@@ -17,3 +17,12 @@ http://localhost:8765/currency-exchange/from/USD/to/INR
 http://localhost:8765/currency-conversion-rest/from/USD/to/INR/quantity/10
 http://localhost:8765/currency-conversion-feign/from/USD/to/INR/quantity/10
 http://localhost:8765/kingKohli/from/USD/to/INR/quantity/30
+
+Zipkin Tracing Server(Run using docker) -
+http://localhost:9411
+
+To let zipkin to trace feign req - use feign micrometer dependency.
+To let zipkin to trace api req - use RestTemplateBuilder 
+
+Image -
+Currency Exchange - l0nw0lf/mmv2-currency-exchange:0.0.1-SNAPSHOT

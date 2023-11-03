@@ -12,4 +12,5 @@ public class CurrencyConversionApplication {
 		SpringApplication.run(CurrencyConversionApplication.class, args);
 	}
 
+
 }
