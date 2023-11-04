@@ -26,3 +26,6 @@ To let zipkin to trace api req - use RestTemplateBuilder
 
 Image -
 Currency Exchange - l0nw0lf/mmv2-currency-exchange:0.0.1-SNAPSHOT
+Naming server - l0nw0lf/mmv2-naming-server:0.0.1-SNAPSHOT
+Currency Conversion - l0nw0lf/mmv2-currency-conversion:0.0.1-SNAPSHOT
+Api gateway - l0nw0lf/mmv2-api-gateway:0.0.1-SNAPSHOT
